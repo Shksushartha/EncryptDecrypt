@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model encryptDecryptModel
+
+<form method="post" asp-controller="Home" asp-action="Encrypt">
+    <input asp-for="d" />
+    <button type="submit">Encrypt</button>
+</form>
+
+<h2>@Model.e</h2>
