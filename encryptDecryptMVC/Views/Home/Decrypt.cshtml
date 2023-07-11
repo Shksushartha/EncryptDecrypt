@@ -7,8 +7,8 @@
 @model encryptDecryptModel
 
 <form method="post" asp-controller="Home" asp-action="Decrypt">
-    <input asp-for="e" />
-    <button type="submit">Decrypt</button>
+    <input asp-for="e" class="form-control mb-3" />
+    <button type="submit" class="btn btn-primary">Decrypt</button>
 </form>
 
 <h2>@Model.d</h2>
